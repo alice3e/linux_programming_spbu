@@ -1,0 +1,6 @@
+{
+    "source_dir": "/Users/alicee/Desktop/Work_Main/linux_prog/lesson2/source",
+    "backup_dir": "/Users/alicee/Desktop/Work_Main/linux_prog/lesson2/backup",
+    "interval_seconds": 5,
+    "log_file": "lesson2/backup_daemon.log"
+}
