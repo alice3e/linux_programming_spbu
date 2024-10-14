@@ -130,3 +130,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     gui = BackupConfigGUI(root)
     root.mainloop()
+# /home/alicee/Desktop/linux_programming_spbu/lesson2/backup_config.json
