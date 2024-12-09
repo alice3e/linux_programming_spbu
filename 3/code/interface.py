@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 from threading import Thread
 from monitor import ProcessMonitor, start_file_monitoring
-from logging import EventLogger
+from loggerr import EventLogger
 import os
 
 
@@ -13,6 +13,7 @@ class AuditApp:
         self.logger = EventLogger()
         self.observer = None
         self.monitoring = False
+        
         
         # GUI элементы
         self.log_text = tk.Text(root, wrap=tk.WORD, height=20, width=80)
@@ -77,6 +78,8 @@ class AuditApp:
             # Запуск процесса мониторинга
             self.process_thread = Thread(target=ProcessMonitor.monitor_processes, args=(self.log_event,), daemon=True)
             self.process_thread.start()
+            
+            # Запуск наблюдателя за файловой системой
             self.observer = start_file_monitoring(self.log_event, excluded_files=[log_file])
             self.root.protocol("WM_DELETE_WINDOW", self.on_close)
 
@@ -102,6 +105,7 @@ class AuditApp:
         """Закрытие приложения."""
         self.stop_monitoring()
         self.root.destroy()
+        self.root.quit()
 
 
 
