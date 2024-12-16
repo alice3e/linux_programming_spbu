@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process Notifications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 5px;
+            margin: 5px 0;
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Process Notifications</h1>
+    <ul id="notifications"></ul>
+    <script>
+        // Автоматическое обновление уведомлений
+        async function fetchNotifications() {
+            try {
+                const response = await fetch('/notifications');
+                const notifications = await response.json();
+                const notificationList = document.getElementById('notifications');
+                notificationList.innerHTML = notifications.map(n => `<li>${n}</li>`).join('');
+            } catch (error) {
+                console.error('Failed to fetch notifications:', error);
+            }
+        }
+
+        // Обновление каждые 2 секунды
+        setInterval(fetchNotifications, 2000);
+        fetchNotifications();
+    </script>
+</body>
+</html>

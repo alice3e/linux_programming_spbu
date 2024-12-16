@@ -4,6 +4,7 @@ from watchdog.events import FileSystemEventHandler
 import time
 import threading
 import os
+import requests
 
 
 class ProcessMonitor:
@@ -71,3 +72,45 @@ def start_file_monitoring(callback, path=".", excluded_files=None):
     observer.schedule(event_handler, path, recursive=True)
     observer.start()
     return observer
+
+
+def send_notification(event_type, event_data):
+    """Отправка уведомлений на сервер."""
+    url = "http://127.0.0.1:5000/send_notification"
+    payload = {
+        "process_name": event_data.get("name", "Unknown"),
+        "pid": event_data.get("pid", "Unknown")
+    }
+    try:
+        print(f"Sending notification: {payload}")
+        response = requests.post(url, json=payload)
+        response.raise_for_status()  # Проверка HTTP-статуса
+
+        # Попробуем прочитать JSON
+        try:
+            response_data = response.json()
+            print(f"Notification sent successfully: {response_data}")
+        except ValueError:
+            print(f"Server returned non-JSON response: {response.text}")
+    except requests.RequestException as e:
+        print(f"Failed to send notification: {e}")
+
+
+
+# Запуск мониторинга
+if __name__ == "__main__":
+    # Запуск мониторинга процессов
+    process_thread = threading.Thread(target=ProcessMonitor.monitor_processes, args=(send_notification,))
+    process_thread.start()
+
+    # Запуск мониторинга файловой системы
+    observer = start_file_monitoring(send_notification, path=".")
+    
+    try:
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        ProcessMonitor.stop_monitoring()
+        observer.stop()
+        observer.join()
+        process_thread.join()

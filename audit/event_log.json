@@ -1,0 +1,21 @@
+{"type": "process_start", "data": {"pid": 56797, "name": "Telegram", "user": "alicee"}, "timestamp": "2024-12-16T10:21:45.350169"}
+{"type": "process_start", "data": {"pid": 56800, "name": "sips", "user": "alicee"}, "timestamp": "2024-12-16T10:21:45.977825"}
+{"type": "process_start", "data": {"pid": 56803, "name": "sips", "user": "alicee"}, "timestamp": "2024-12-16T10:21:46.293421"}
+{"type": "process_end", "data": {"pid": 56800}, "timestamp": "2024-12-16T10:21:46.293742"}
+{"type": "process_start", "data": {"pid": 56804, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-16T10:21:46.616610"}
+{"type": "process_start", "data": {"pid": 56807, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-16T10:21:46.617591"}
+{"type": "process_end", "data": {"pid": 56803}, "timestamp": "2024-12-16T10:21:46.620920"}
+{"type": "process_start", "data": {"pid": 56809, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-16T10:21:47.578157"}
+{"type": "process_start", "data": {"pid": 56810, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-16T10:21:47.578910"}
+{"type": "process_start", "data": {"pid": 56811, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-16T10:21:47.581646"}
+{"type": "process_end", "data": {"pid": 56797}, "timestamp": "2024-12-16T10:21:47.581920"}
+{"type": "process_start", "data": {"pid": 56812, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-16T10:21:47.893414"}
+{"type": "process_start", "data": {"pid": 56816, "name": "Arc Helper (Renderer)", "user": "alicee"}, "timestamp": "2024-12-16T10:21:52.349979"}
+{"type": "process_start", "data": {"pid": 56815, "name": "Arc Helper (Renderer)", "user": "alicee"}, "timestamp": "2024-12-16T10:21:52.351823"}
+{"type": "process_end", "data": {"pid": 56787}, "timestamp": "2024-12-16T10:21:52.356804"}
+{"type": "process_end", "data": {"pid": 56560}, "timestamp": "2024-12-16T10:21:55.246730"}
+{"type": "process_start", "data": {"pid": 56821, "name": "AXVisualSupportAgent", "user": "alicee"}, "timestamp": "2024-12-16T10:21:58.778426"}
+{"type": "process_end", "data": {"pid": 56547}, "timestamp": "2024-12-16T10:21:58.778977"}
+{"type": "process_end", "data": {"pid": 56816}, "timestamp": "2024-12-16T10:22:02.306255"}
+{"type": "process_end", "data": {"pid": 56815}, "timestamp": "2024-12-16T10:22:02.306756"}
+{"type": "process_start", "data": {"pid": 56830, "name": "Arc Helper (Renderer)", "user": "alicee"}, "timestamp": "2024-12-16T10:22:19.016925"}
