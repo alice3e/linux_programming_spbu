@@ -149,6 +149,7 @@ class TrafficScannerApp(tk.Tk):
 
         # Создание чекбоксов для каждого подозрительного IP с информацией об ISP
         for ip in suspicious_ips:
+            print(ip)
             isp_info = self.get_isp_info(ip)
             display_text = f"{ip}, ISP: {isp_info}"
             var = tk.IntVar()

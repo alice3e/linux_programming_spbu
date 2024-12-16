@@ -1,5 +1,7 @@
 import json
 from datetime import datetime
+import requests
+import psutil
 
 class EventLogger:
     """Класс для работы с журналом событий."""
@@ -27,33 +29,47 @@ class EventLogger:
                 
                 for key, value in filters.items():
                     if key == "pid":
-                        # Ищем pid в data для событий process_start и process_end
                         pid = event.get("data", {}).get("pid")
                         if pid is None or pid != value:
                             match = False
                             break
                     elif key == "path":
-                        # Ищем path в data для события file_modified
                         path = event.get("data", {}).get("path")
                         if path is None or path != value:
                             match = False
                             break
                     elif key == "name":
-                        # Ищем name в data для события process_start
                         name = event.get("data", {}).get("name")
                         if name is None or name != value:
                             match = False
                             break
                     elif key == "type":
-                        # Ищем type на верхнем уровне записи
                         if event.get("type") != value:
                             match = False
                             break
                     else:
-                        # Если фильтр не соответствует известным ключам
                         match = False
                         break
                 
                 if match:
                     results.append(event)
         return results
+    
+    def monitor_process(self, pid=None, name=None):
+        """Мониторинг процесса по pid или name. Отправка уведомлений при старте или завершении."""
+        # Если pid или name не переданы, заменяем их на 'Unknown'
+        process_name = name if name else 'Unknown'
+        process_pid = pid if pid else 'Unknown'
+        
+        # Отправка уведомления через POST запрос
+        response = requests.post("http://127.0.0.1:5000/send_notification", json={
+            "process_name": process_name,
+            "pid": process_pid
+        })
+        return response
+
+# Пример использования:
+a = EventLogger()
+a.monitor_process(pid=12345)  # Передаем pid
+a.monitor_process(name='example_process')  # Передаем имя процесса
+a.monitor_process()  # Если ни pid, ни name не переданы

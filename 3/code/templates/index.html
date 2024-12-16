@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process Notifications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .notification {
+            background-color: #e0f7fa;
+            border: 1px solid #00796b;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Process Notifications</h1>
+    <div id="notifications">
+        {% for notification in notifications %}
+            <div class="notification">{{ notification }}</div>
+        {% endfor %}
+    </div>
+
+    <script>
+        function fetchNotifications() {
+            fetch('/').then(response => response.text()).then(data => {
+                document.getElementById('notifications').innerHTML = data;
+            });
+        }
+
+        // Запрашиваем уведомления каждую секунду
+        setInterval(fetchNotifications, 1000);
+    </script>
+</body>
+</html>
