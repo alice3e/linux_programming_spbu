@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-
+from datetime import datetime
 app = Flask(__name__)
 notifications = []
 
@@ -7,15 +7,18 @@ notifications = []
 def index():
     return render_template('index.html')
 
+
 @app.route('/send_notification', methods=['POST'])
 def send_notification():
     process_name = request.json.get('process_name', 'Unknown process')
     pid = request.json.get('pid', 'Unknown PID')
-    notification = f"Process {process_name} (PID: {pid}) started!"
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    notification = f"[{timestamp}] Process {process_name} (PID: {pid}) started!"
     notifications.append(notification)
     if len(notifications) > 10:
         notifications.pop(0)
     return jsonify({"message": notification})
+
 
 @app.route('/notifications', methods=['GET'])
 def get_notifications():

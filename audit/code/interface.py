@@ -26,6 +26,7 @@ class AuditApp:
         self.filter_option = ttk.Combobox(filter_frame, values=["pid", "type", "path", "name"], state="readonly")
         self.filter_option.grid(row=0, column=1, padx=5)
         self.filter_option.current(0)
+    
 
         ttk.Label(filter_frame, text="Значение:").grid(row=0, column=2, padx=5)
         self.filter_entry = ttk.Entry(filter_frame, width=20)
@@ -44,10 +45,24 @@ class AuditApp:
         self.stop_button.grid(row=0, column=1, padx=10)
 
     def log_event(self, event_type, event_data):
-        """Обработчик для записи события."""
+        """Обработчик для записи события и отправки уведомлений."""
+        # Логируем событие в файл
         self.logger.log_event(event_type, event_data)
+        
+        # Добавляем событие в интерфейс
         self.log_text.insert(tk.END, f"{event_type}: {event_data}\n")
         self.log_text.see(tk.END)
+
+        # Отправляем уведомление через monitor_process
+        pid = event_data.get("pid")
+        name = event_data.get("name")
+        response = self.logger.monitor_process(pid=pid, name=name)
+        
+        # Логируем ответ от сервера в консоль (опционально)
+        if response and response.status_code == 200:
+            print(f"Notification sent: {response.json()}")
+        else:
+            print(f"Failed to send notification: {response}")
 
 
     def search_events(self):

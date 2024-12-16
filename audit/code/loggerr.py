@@ -62,14 +62,9 @@ class EventLogger:
         process_pid = pid if pid else 'Unknown'
         
         # Отправка уведомления через POST запрос
-        response = requests.post("http://127.0.0.1:5000/send_notification", json={
+        response = requests.post("http://127.0.0.1:8080/send_notification", json={
             "process_name": process_name,
             "pid": process_pid
         })
         return response
 
-# Пример использования:
-a = EventLogger()
-a.monitor_process(pid=12345)  # Передаем pid
-a.monitor_process(name='example_process')  # Передаем имя процесса
-a.monitor_process()  # Если ни pid, ни name не переданы
