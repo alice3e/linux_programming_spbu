@@ -381,3 +381,357 @@
 {"type": "process_end", "data": {"pid": 67848}, "timestamp": "2024-12-17T03:09:50.891718"}
 {"type": "process_end", "data": {"pid": 67960}, "timestamp": "2024-12-17T03:09:50.894837"}
 {"type": "process_end", "data": {"pid": 67839}, "timestamp": "2024-12-17T03:09:50.896692"}
+{"type": "process_start", "data": {"pid": 70862, "name": "clion", "user": "alicee"}, "timestamp": "2024-12-17T09:44:16.249162"}
+{"type": "process_start", "data": {"pid": 70863, "name": "pycharm", "user": "alicee"}, "timestamp": "2024-12-17T09:44:16.572590"}
+{"type": "process_start", "data": {"pid": 70885, "name": "sw_vers", "user": "alicee"}, "timestamp": "2024-12-17T09:44:16.890061"}
+{"type": "process_start", "data": {"pid": 70864, "name": "dataspell", "user": "alicee"}, "timestamp": "2024-12-17T09:44:16.894669"}
+{"type": "process_start", "data": {"pid": 70865, "name": "zsh", "user": "alicee"}, "timestamp": "2024-12-17T09:44:16.896735"}
+{"type": "process_start", "data": {"pid": 70876, "name": "zsh", "user": "alicee"}, "timestamp": "2024-12-17T09:44:16.898857"}
+{"type": "process_start", "data": {"pid": 70879, "name": "bash", "user": "alicee"}, "timestamp": "2024-12-17T09:44:16.901428"}
+{"type": "process_start", "data": {"pid": 70928, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:44:17.220734"}
+{"type": "process_start", "data": {"pid": 70921, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:44:17.225021"}
+{"type": "process_start", "data": {"pid": 70922, "name": "zsh", "user": "alicee"}, "timestamp": "2024-12-17T09:44:17.228216"}
+{"type": "process_start", "data": {"pid": 70916, "name": "zsh", "user": "alicee"}, "timestamp": "2024-12-17T09:44:17.230723"}
+{"type": "process_end", "data": {"pid": 70885}, "timestamp": "2024-12-17T09:44:17.232572"}
+{"type": "process_end", "data": {"pid": 70879}, "timestamp": "2024-12-17T09:44:17.234434"}
+{"type": "process_start", "data": {"pid": 70932, "name": "zsh", "user": "alicee"}, "timestamp": "2024-12-17T09:44:17.551188"}
+{"type": "process_start", "data": {"pid": 70951, "name": "ps", "user": "alicee"}, "timestamp": "2024-12-17T09:44:17.553981"}
+{"type": "process_start", "data": {"pid": 70955, "name": "zsh", "user": "alicee"}, "timestamp": "2024-12-17T09:44:17.872678"}
+{"type": "process_start", "data": {"pid": 70962, "name": "bash", "user": "alicee"}, "timestamp": "2024-12-17T09:44:17.877717"}
+{"type": "process_start", "data": {"pid": 70965, "name": "bash", "user": "alicee"}, "timestamp": "2024-12-17T09:44:17.880548"}
+{"type": "process_start", "data": {"pid": 70966, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:44:17.884188"}
+{"type": "process_start", "data": {"pid": 70969, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:44:17.886937"}
+{"type": "process_start", "data": {"pid": 70970, "name": "zsh", "user": "alicee"}, "timestamp": "2024-12-17T09:44:17.889512"}
+{"type": "process_start", "data": {"pid": 70973, "name": "zsh", "user": "alicee"}, "timestamp": "2024-12-17T09:44:17.892889"}
+{"type": "process_start", "data": {"pid": 70974, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:44:17.895766"}
+{"type": "process_end", "data": {"pid": 70921}, "timestamp": "2024-12-17T09:44:17.899414"}
+{"type": "process_end", "data": {"pid": 70951}, "timestamp": "2024-12-17T09:44:17.903143"}
+{"type": "process_start", "data": {"pid": 70978, "name": "fsnotifier", "user": "alicee"}, "timestamp": "2024-12-17T09:44:18.224261"}
+{"type": "process_start", "data": {"pid": 70979, "name": "zsh", "user": "alicee"}, "timestamp": "2024-12-17T09:44:18.229019"}
+{"type": "process_start", "data": {"pid": 70980, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:44:18.233914"}
+{"type": "process_end", "data": {"pid": 70916}, "timestamp": "2024-12-17T09:44:18.237199"}
+{"type": "process_end", "data": {"pid": 70922}, "timestamp": "2024-12-17T09:44:18.239482"}
+{"type": "process_end", "data": {"pid": 70955}, "timestamp": "2024-12-17T09:44:18.242076"}
+{"type": "process_end", "data": {"pid": 70928}, "timestamp": "2024-12-17T09:44:18.245616"}
+{"type": "process_end", "data": {"pid": 70865}, "timestamp": "2024-12-17T09:44:18.247961"}
+{"type": "process_end", "data": {"pid": 70970}, "timestamp": "2024-12-17T09:44:18.250175"}
+{"type": "process_end", "data": {"pid": 70973}, "timestamp": "2024-12-17T09:44:18.253673"}
+{"type": "process_end", "data": {"pid": 70974}, "timestamp": "2024-12-17T09:44:18.256249"}
+{"type": "process_end", "data": {"pid": 70975}, "timestamp": "2024-12-17T09:44:18.259101"}
+{"type": "process_start", "data": {"pid": 70986, "name": "bash", "user": "alicee"}, "timestamp": "2024-12-17T09:44:18.580023"}
+{"type": "process_start", "data": {"pid": 70987, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:44:18.584742"}
+{"type": "process_start", "data": {"pid": 70990, "name": "zsh", "user": "alicee"}, "timestamp": "2024-12-17T09:44:18.587192"}
+{"type": "process_start", "data": {"pid": 70991, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:44:18.589983"}
+{"type": "process_end", "data": {"pid": 70969}, "timestamp": "2024-12-17T09:44:18.592866"}
+{"type": "process_end", "data": {"pid": 70981}, "timestamp": "2024-12-17T09:44:18.595804"}
+{"type": "process_end", "data": {"pid": 70965}, "timestamp": "2024-12-17T09:44:18.598735"}
+{"type": "process_end", "data": {"pid": 70966}, "timestamp": "2024-12-17T09:44:18.601340"}
+{"type": "process_start", "data": {"pid": 70992, "name": "fsnotifier", "user": "alicee"}, "timestamp": "2024-12-17T09:44:18.920811"}
+{"type": "process_end", "data": {"pid": 70979}, "timestamp": "2024-12-17T09:44:18.925881"}
+{"type": "process_end", "data": {"pid": 70980}, "timestamp": "2024-12-17T09:44:18.928831"}
+{"type": "process_end", "data": {"pid": 70986}, "timestamp": "2024-12-17T09:44:18.931354"}
+{"type": "process_end", "data": {"pid": 70987}, "timestamp": "2024-12-17T09:44:18.935039"}
+{"type": "process_end", "data": {"pid": 70990}, "timestamp": "2024-12-17T09:44:18.939208"}
+{"type": "process_end", "data": {"pid": 70991}, "timestamp": "2024-12-17T09:44:18.942245"}
+{"type": "process_end", "data": {"pid": 70962}, "timestamp": "2024-12-17T09:44:18.946281"}
+{"type": "process_end", "data": {"pid": 70932}, "timestamp": "2024-12-17T09:44:18.949777"}
+{"type": "process_end", "data": {"pid": 70876}, "timestamp": "2024-12-17T09:44:18.954732"}
+{"type": "process_start", "data": {"pid": 70996, "name": "fsnotifier", "user": "alicee"}, "timestamp": "2024-12-17T09:44:19.271825"}
+{"type": "process_start", "data": {"pid": 70997, "name": "pgrep", "user": "alicee"}, "timestamp": "2024-12-17T09:44:19.593413"}
+{"type": "process_start", "data": {"pid": 70998, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:44:19.911948"}
+{"type": "process_end", "data": {"pid": 70997}, "timestamp": "2024-12-17T09:44:19.916284"}
+{"type": "process_start", "data": {"pid": 71000, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:44:20.238204"}
+{"type": "process_start", "data": {"pid": 71001, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:44:20.243203"}
+{"type": "process_start", "data": {"pid": 70999, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:44:20.247005"}
+{"type": "process_end", "data": {"pid": 70637}, "timestamp": "2024-12-17T09:44:20.250412"}
+{"type": "process_end", "data": {"pid": 70586}, "timestamp": "2024-12-17T09:44:20.255130"}
+{"type": "process_end", "data": {"pid": 70629}, "timestamp": "2024-12-17T09:44:20.258804"}
+{"type": "process_start", "data": {"pid": 71004, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:44:20.896529"}
+{"type": "process_start", "data": {"pid": 71005, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:44:20.902042"}
+{"type": "process_start", "data": {"pid": 71006, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:44:20.905753"}
+{"type": "process_start", "data": {"pid": 71009, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:44:21.226375"}
+{"type": "process_start", "data": {"pid": 71010, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:44:21.231183"}
+{"type": "process_start", "data": {"pid": 71011, "name": "jcef Helper (GPU)", "user": "alicee"}, "timestamp": "2024-12-17T09:44:21.236391"}
+{"type": "process_start", "data": {"pid": 71007, "name": "clangd", "user": "alicee"}, "timestamp": "2024-12-17T09:44:21.239594"}
+{"type": "process_start", "data": {"pid": 71012, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:44:21.559224"}
+{"type": "process_start", "data": {"pid": 71013, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:44:21.563103"}
+{"type": "process_start", "data": {"pid": 71014, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:44:21.569940"}
+{"type": "process_start", "data": {"pid": 71015, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:44:21.574480"}
+{"type": "process_start", "data": {"pid": 71016, "name": "jcef Helper", "user": "alicee"}, "timestamp": "2024-12-17T09:44:21.580596"}
+{"type": "process_start", "data": {"pid": 71027, "name": "clang-tidy", "user": "alicee"}, "timestamp": "2024-12-17T09:44:22.533675"}
+{"type": "process_start", "data": {"pid": 71036, "name": "git", "user": "alicee"}, "timestamp": "2024-12-17T09:44:22.858730"}
+{"type": "process_start", "data": {"pid": 71039, "name": "git", "user": "alicee"}, "timestamp": "2024-12-17T09:44:22.863459"}
+{"type": "process_start", "data": {"pid": 71042, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:44:23.183777"}
+{"type": "process_start", "data": {"pid": 71047, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:44:23.188941"}
+{"type": "process_end", "data": {"pid": 71027}, "timestamp": "2024-12-17T09:44:23.193445"}
+{"type": "process_start", "data": {"pid": 71063, "name": "cmake", "user": "alicee"}, "timestamp": "2024-12-17T09:44:23.514333"}
+{"type": "process_end", "data": {"pid": 71009}, "timestamp": "2024-12-17T09:44:23.518505"}
+{"type": "process_end", "data": {"pid": 71042}, "timestamp": "2024-12-17T09:44:23.521316"}
+{"type": "process_end", "data": {"pid": 71010}, "timestamp": "2024-12-17T09:44:23.522995"}
+{"type": "process_end", "data": {"pid": 71047}, "timestamp": "2024-12-17T09:44:23.524681"}
+{"type": "process_end", "data": {"pid": 71036}, "timestamp": "2024-12-17T09:44:23.528161"}
+{"type": "process_end", "data": {"pid": 71039}, "timestamp": "2024-12-17T09:44:23.529762"}
+{"type": "process_end", "data": {"pid": 71063}, "timestamp": "2024-12-17T09:44:23.845900"}
+{"type": "process_start", "data": {"pid": 71072, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:44:24.167372"}
+{"type": "process_end", "data": {"pid": 70998}, "timestamp": "2024-12-17T09:44:24.172370"}
+{"type": "process_start", "data": {"pid": 71076, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:44:24.810859"}
+{"type": "process_start", "data": {"pid": 71077, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:44:24.815777"}
+{"type": "process_end", "data": {"pid": 70992}, "timestamp": "2024-12-17T09:44:26.415176"}
+{"type": "process_end", "data": {"pid": 71007}, "timestamp": "2024-12-17T09:44:26.419418"}
+{"type": "process_start", "data": {"pid": 71078, "name": "AXVisualSupportAgent", "user": "alicee"}, "timestamp": "2024-12-17T09:44:26.737978"}
+{"type": "process_end", "data": {"pid": 70630}, "timestamp": "2024-12-17T09:44:26.741873"}
+{"type": "process_start", "data": {"pid": 71082, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:44:27.695584"}
+{"type": "process_start", "data": {"pid": 71083, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:44:27.700323"}
+{"type": "process_end", "data": {"pid": 71077}, "timestamp": "2024-12-17T09:44:27.704893"}
+{"type": "process_end", "data": {"pid": 70862}, "timestamp": "2024-12-17T09:44:27.709288"}
+{"type": "process_start", "data": {"pid": 71085, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:44:28.352311"}
+{"type": "process_end", "data": {"pid": 70978}, "timestamp": "2024-12-17T09:44:29.305073"}
+{"type": "process_end", "data": {"pid": 71016}, "timestamp": "2024-12-17T09:44:29.631852"}
+{"type": "process_end", "data": {"pid": 71011}, "timestamp": "2024-12-17T09:44:29.636533"}
+{"type": "process_end", "data": {"pid": 70863}, "timestamp": "2024-12-17T09:44:29.640903"}
+{"type": "process_start", "data": {"pid": 71086, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:44:30.925962"}
+{"type": "process_end", "data": {"pid": 70996}, "timestamp": "2024-12-17T09:44:33.168399"}
+{"type": "process_end", "data": {"pid": 70864}, "timestamp": "2024-12-17T09:44:33.495516"}
+{"type": "process_end", "data": {"pid": 70861}, "timestamp": "2024-12-17T09:44:33.815437"}
+{"type": "process_end", "data": {"pid": 71085}, "timestamp": "2024-12-17T09:44:35.097948"}
+{"type": "process_start", "data": {"pid": 71098, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:44:35.733555"}
+{"type": "process_end", "data": {"pid": 70860}, "timestamp": "2024-12-17T09:44:36.052785"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/interface.py"}, "timestamp": "2024-12-17T09:44:36.301641"}
+{"type": "process_start", "data": {"pid": 71099, "name": "wakatime-cli-darwin-arm64", "user": "alicee"}, "timestamp": "2024-12-17T09:44:36.368132"}
+{"type": "process_start", "data": {"pid": 71100, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:44:36.682869"}
+{"type": "process_start", "data": {"pid": 71101, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:44:36.685818"}
+{"type": "process_end", "data": {"pid": 70659}, "timestamp": "2024-12-17T09:44:36.687496"}
+{"type": "process_end", "data": {"pid": 70660}, "timestamp": "2024-12-17T09:44:36.689383"}
+{"type": "process_end", "data": {"pid": 71099}, "timestamp": "2024-12-17T09:44:36.690820"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/interface.py"}, "timestamp": "2024-12-17T09:44:36.908692"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/interface.py"}, "timestamp": "2024-12-17T09:44:36.920572"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/interface.py"}, "timestamp": "2024-12-17T09:44:37.111320"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/interface.py"}, "timestamp": "2024-12-17T09:44:37.304207"}
+{"type": "process_start", "data": {"pid": 71114, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:44:37.624578"}
+{"type": "process_end", "data": {"pid": 71100}, "timestamp": "2024-12-17T09:44:37.678207"}
+{"type": "process_end", "data": {"pid": 71101}, "timestamp": "2024-12-17T09:44:37.680253"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/interface.py"}, "timestamp": "2024-12-17T09:44:37.712339"}
+{"type": "process_start", "data": {"pid": 71115, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:44:37.996670"}
+{"type": "process_start", "data": {"pid": 71123, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:44:38.953061"}
+{"type": "process_start", "data": {"pid": 71124, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:44:38.956510"}
+{"type": "process_end", "data": {"pid": 71114}, "timestamp": "2024-12-17T09:44:38.958370"}
+{"type": "process_end", "data": {"pid": 71115}, "timestamp": "2024-12-17T09:44:38.959901"}
+{"type": "process_start", "data": {"pid": 71126, "name": "wakatime-cli-darwin-arm64", "user": "alicee"}, "timestamp": "2024-12-17T09:44:41.512440"}
+{"type": "process_end", "data": {"pid": 71126}, "timestamp": "2024-12-17T09:44:41.833258"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/test.sh"}, "timestamp": "2024-12-17T09:44:42.619025"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/test.sh"}, "timestamp": "2024-12-17T09:44:42.844636"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/test.sh"}, "timestamp": "2024-12-17T09:44:43.047373"}
+{"type": "process_start", "data": {"pid": 71140, "name": "wakatime-cli-darwin-arm64", "user": "alicee"}, "timestamp": "2024-12-17T09:44:43.111888"}
+{"type": "process_end", "data": {"pid": 71140}, "timestamp": "2024-12-17T09:44:43.433521"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/test.sh"}, "timestamp": "2024-12-17T09:44:43.489429"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/test.sh"}, "timestamp": "2024-12-17T09:44:43.731558"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/test.sh"}, "timestamp": "2024-12-17T09:44:43.914544"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/test.sh"}, "timestamp": "2024-12-17T09:44:44.270266"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/test.sh"}, "timestamp": "2024-12-17T09:44:44.489946"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/test.sh"}, "timestamp": "2024-12-17T09:44:44.703658"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/test.sh"}, "timestamp": "2024-12-17T09:44:45.871395"}
+{"type": "process_start", "data": {"pid": 71163, "name": "ps", "user": "alicee"}, "timestamp": "2024-12-17T09:44:47.593377"}
+{"type": "process_end", "data": {"pid": 71163}, "timestamp": "2024-12-17T09:44:47.919272"}
+{"type": "process_start", "data": {"pid": 71168, "name": "git", "user": "alicee"}, "timestamp": "2024-12-17T09:44:49.844153"}
+{"type": "process_start", "data": {"pid": 71169, "name": "git", "user": "alicee"}, "timestamp": "2024-12-17T09:44:49.848122"}
+{"type": "process_start", "data": {"pid": 71170, "name": "git-remote-https", "user": "alicee"}, "timestamp": "2024-12-17T09:44:50.169460"}
+{"type": "process_start", "data": {"pid": 71171, "name": "git", "user": "alicee"}, "timestamp": "2024-12-17T09:44:50.172436"}
+{"type": "process_end", "data": {"pid": 71171}, "timestamp": "2024-12-17T09:44:50.498548"}
+{"type": "process_end", "data": {"pid": 71168}, "timestamp": "2024-12-17T09:44:51.142354"}
+{"type": "process_end", "data": {"pid": 71169}, "timestamp": "2024-12-17T09:44:51.146371"}
+{"type": "process_end", "data": {"pid": 71170}, "timestamp": "2024-12-17T09:44:51.150019"}
+{"type": "process_start", "data": {"pid": 71195, "name": "Code Helper (Renderer)", "user": "alicee"}, "timestamp": "2024-12-17T09:44:54.026004"}
+{"type": "file_deleted", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/graphs/event_type_distribution.png"}, "timestamp": "2024-12-17T09:44:55.152013"}
+{"type": "process_end", "data": {"pid": 71083}, "timestamp": "2024-12-17T09:44:56.916051"}
+{"type": "process_start", "data": {"pid": 71207, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:44:57.550072"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/loggerr.py"}, "timestamp": "2024-12-17T09:44:57.658996"}
+{"type": "process_start", "data": {"pid": 71212, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:44:58.185024"}
+{"type": "process_start", "data": {"pid": 71213, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:44:58.188513"}
+{"type": "process_end", "data": {"pid": 71123}, "timestamp": "2024-12-17T09:44:58.190543"}
+{"type": "process_end", "data": {"pid": 71124}, "timestamp": "2024-12-17T09:44:58.194282"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/loggerr.py"}, "timestamp": "2024-12-17T09:44:58.308315"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/loggerr.py"}, "timestamp": "2024-12-17T09:44:58.522168"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/loggerr.py"}, "timestamp": "2024-12-17T09:44:58.735458"}
+{"type": "process_start", "data": {"pid": 71225, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:44:59.131085"}
+{"type": "process_end", "data": {"pid": 71212}, "timestamp": "2024-12-17T09:44:59.246257"}
+{"type": "process_end", "data": {"pid": 71213}, "timestamp": "2024-12-17T09:44:59.249891"}
+{"type": "process_start", "data": {"pid": 71228, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:44:59.562628"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/notifier.py"}, "timestamp": "2024-12-17T09:44:59.821904"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/notifier.py"}, "timestamp": "2024-12-17T09:45:00.018779"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/notifier.py"}, "timestamp": "2024-12-17T09:45:00.195703"}
+{"type": "process_start", "data": {"pid": 71240, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:45:00.504300"}
+{"type": "process_start", "data": {"pid": 71241, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:45:00.508009"}
+{"type": "process_end", "data": {"pid": 71225}, "timestamp": "2024-12-17T09:45:00.510520"}
+{"type": "process_end", "data": {"pid": 71228}, "timestamp": "2024-12-17T09:45:00.512507"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/plots.py"}, "timestamp": "2024-12-17T09:45:01.259725"}
+{"type": "process_start", "data": {"pid": 71251, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:45:01.449913"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/plots.py"}, "timestamp": "2024-12-17T09:45:01.473367"}
+{"type": "process_end", "data": {"pid": 71240}, "timestamp": "2024-12-17T09:45:01.524759"}
+{"type": "process_end", "data": {"pid": 71241}, "timestamp": "2024-12-17T09:45:01.526789"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/plots.py"}, "timestamp": "2024-12-17T09:45:01.675041"}
+{"type": "process_start", "data": {"pid": 71252, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:45:01.843483"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/report.py"}, "timestamp": "2024-12-17T09:45:02.779469"}
+{"type": "process_start", "data": {"pid": 71265, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:45:02.793796"}
+{"type": "process_start", "data": {"pid": 71268, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:45:02.796271"}
+{"type": "process_end", "data": {"pid": 71251}, "timestamp": "2024-12-17T09:45:02.798072"}
+{"type": "process_end", "data": {"pid": 71252}, "timestamp": "2024-12-17T09:45:02.799661"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/report.py"}, "timestamp": "2024-12-17T09:45:02.977090"}
+{"type": "process_end", "data": {"pid": 70999}, "timestamp": "2024-12-17T09:45:03.437427"}
+{"type": "process_end", "data": {"pid": 71000}, "timestamp": "2024-12-17T09:45:03.442110"}
+{"type": "process_end", "data": {"pid": 71001}, "timestamp": "2024-12-17T09:45:03.446105"}
+{"type": "process_end", "data": {"pid": 71004}, "timestamp": "2024-12-17T09:45:03.448339"}
+{"type": "process_end", "data": {"pid": 71005}, "timestamp": "2024-12-17T09:45:03.450456"}
+{"type": "process_end", "data": {"pid": 71006}, "timestamp": "2024-12-17T09:45:03.453842"}
+{"type": "process_start", "data": {"pid": 71274, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:45:03.767273"}
+{"type": "process_end", "data": {"pid": 71265}, "timestamp": "2024-12-17T09:45:03.798427"}
+{"type": "process_end", "data": {"pid": 71012}, "timestamp": "2024-12-17T09:45:03.800396"}
+{"type": "process_end", "data": {"pid": 71013}, "timestamp": "2024-12-17T09:45:03.802494"}
+{"type": "process_end", "data": {"pid": 71014}, "timestamp": "2024-12-17T09:45:03.803894"}
+{"type": "process_end", "data": {"pid": 71015}, "timestamp": "2024-12-17T09:45:03.805367"}
+{"type": "process_end", "data": {"pid": 71268}, "timestamp": "2024-12-17T09:45:03.806583"}
+{"type": "process_start", "data": {"pid": 71275, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:45:04.121341"}
+{"type": "process_start", "data": {"pid": 71281, "name": "Telegram", "user": "alicee"}, "timestamp": "2024-12-17T09:45:05.778940"}
+{"type": "process_start", "data": {"pid": 71282, "name": "taskgated-helper", "user": "root"}, "timestamp": "2024-12-17T09:45:05.784089"}
+{"type": "process_end", "data": {"pid": 71076}, "timestamp": "2024-12-17T09:45:06.733283"}
+{"type": "process_start", "data": {"pid": 71288, "name": "helpd", "user": "alicee"}, "timestamp": "2024-12-17T09:45:07.052565"}
+{"type": "process_start", "data": {"pid": 71289, "name": "sips", "user": "alicee"}, "timestamp": "2024-12-17T09:45:07.057005"}
+{"type": "process_end", "data": {"pid": 71082}, "timestamp": "2024-12-17T09:45:07.060055"}
+{"type": "process_start", "data": {"pid": 71296, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:45:07.375774"}
+{"type": "process_start", "data": {"pid": 71297, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:45:07.379275"}
+{"type": "process_start", "data": {"pid": 71300, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:45:07.381554"}
+{"type": "process_start", "data": {"pid": 71292, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:45:07.383474"}
+{"type": "process_start", "data": {"pid": 71293, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:45:07.385929"}
+{"type": "process_start", "data": {"pid": 71294, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:45:07.388901"}
+{"type": "process_start", "data": {"pid": 71295, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:45:07.393700"}
+{"type": "process_end", "data": {"pid": 71072}, "timestamp": "2024-12-17T09:45:07.396644"}
+{"type": "process_end", "data": {"pid": 71281}, "timestamp": "2024-12-17T09:45:07.400547"}
+{"type": "process_end", "data": {"pid": 71289}, "timestamp": "2024-12-17T09:45:07.405740"}
+{"type": "process_start", "data": {"pid": 71301, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:45:07.728040"}
+{"type": "process_start", "data": {"pid": 71304, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:45:08.052406"}
+{"type": "process_end", "data": {"pid": 71098}, "timestamp": "2024-12-17T09:45:08.057022"}
+{"type": "process_start", "data": {"pid": 71305, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:45:08.382956"}
+{"type": "process_start", "data": {"pid": 71306, "name": "Notion", "user": "alicee"}, "timestamp": "2024-12-17T09:45:08.957654"}
+{"type": "process_start", "data": {"pid": 71307, "name": "Obsidian", "user": "alicee"}, "timestamp": "2024-12-17T09:45:09.284894"}
+{"type": "process_start", "data": {"pid": 71309, "name": "chrome_crashpad_handler", "user": "alicee"}, "timestamp": "2024-12-17T09:45:09.608103"}
+{"type": "process_start", "data": {"pid": 71310, "name": "Obsidian Helper (GPU)", "user": "alicee"}, "timestamp": "2024-12-17T09:45:09.611987"}
+{"type": "process_start", "data": {"pid": 71311, "name": "Obsidian Helper", "user": "alicee"}, "timestamp": "2024-12-17T09:45:09.614722"}
+{"type": "process_start", "data": {"pid": 71312, "name": "SimpleTex", "user": "alicee"}, "timestamp": "2024-12-17T09:45:09.617142"}
+{"type": "process_start", "data": {"pid": 71313, "name": "Obsidian Helper (Renderer)", "user": "alicee"}, "timestamp": "2024-12-17T09:45:09.619615"}
+{"type": "process_start", "data": {"pid": 71314, "name": "Notion Helper (GPU)", "user": "alicee"}, "timestamp": "2024-12-17T09:45:09.621765"}
+{"type": "process_start", "data": {"pid": 71315, "name": "Notion Helper", "user": "alicee"}, "timestamp": "2024-12-17T09:45:09.623901"}
+{"type": "process_start", "data": {"pid": 71316, "name": "Notion Helper", "user": "alicee"}, "timestamp": "2024-12-17T09:45:09.950503"}
+{"type": "process_start", "data": {"pid": 71318, "name": "Notion Helper (Renderer)", "user": "alicee"}, "timestamp": "2024-12-17T09:45:09.969049"}
+{"type": "process_start", "data": {"pid": 71320, "name": "Notion Helper (Renderer)", "user": "alicee"}, "timestamp": "2024-12-17T09:45:09.996759"}
+{"type": "process_start", "data": {"pid": 71321, "name": "Notion Helper (Renderer)", "user": "alicee"}, "timestamp": "2024-12-17T09:45:10.003912"}
+{"type": "process_start", "data": {"pid": 71323, "name": "Notion Helper (Renderer)", "user": "alicee"}, "timestamp": "2024-12-17T09:45:10.008048"}
+{"type": "process_start", "data": {"pid": 71324, "name": "Notion Helper (Renderer)", "user": "alicee"}, "timestamp": "2024-12-17T09:45:10.014549"}
+{"type": "process_start", "data": {"pid": 71325, "name": "Qt Creator", "user": "alicee"}, "timestamp": "2024-12-17T09:45:10.020541"}
+{"type": "process_start", "data": {"pid": 71329, "name": "wakatime-cli-darwin-arm64", "user": "alicee"}, "timestamp": "2024-12-17T09:45:10.978078"}
+{"type": "process_start", "data": {"pid": 71331, "name": "Notion Helper", "user": "alicee"}, "timestamp": "2024-12-17T09:45:10.982704"}
+{"type": "process_start", "data": {"pid": 71332, "name": "Notion Helper (Plugin)", "user": "alicee"}, "timestamp": "2024-12-17T09:45:10.986999"}
+{"type": "process_end", "data": {"pid": 71296}, "timestamp": "2024-12-17T09:45:11.313531"}
+{"type": "process_end", "data": {"pid": 71307}, "timestamp": "2024-12-17T09:45:11.317236"}
+{"type": "process_end", "data": {"pid": 71310}, "timestamp": "2024-12-17T09:45:11.319770"}
+{"type": "process_end", "data": {"pid": 71311}, "timestamp": "2024-12-17T09:45:11.325036"}
+{"type": "process_end", "data": {"pid": 71313}, "timestamp": "2024-12-17T09:45:11.327612"}
+{"type": "process_start", "data": {"pid": 71351, "name": "MTLCompilerService", "user": "alicee"}, "timestamp": "2024-12-17T09:45:11.644810"}
+{"type": "process_end", "data": {"pid": 71305}, "timestamp": "2024-12-17T09:45:11.649373"}
+{"type": "process_end", "data": {"pid": 71301}, "timestamp": "2024-12-17T09:45:11.652732"}
+{"type": "process_start", "data": {"pid": 71400, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:45:11.975453"}
+{"type": "process_start", "data": {"pid": 71401, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:45:11.980839"}
+{"type": "process_start", "data": {"pid": 71399, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:45:11.983236"}
+{"type": "process_start", "data": {"pid": 71403, "name": "chrome_crashpad_handler", "user": "alicee"}, "timestamp": "2024-12-17T09:45:12.318881"}
+{"type": "process_end", "data": {"pid": 71324}, "timestamp": "2024-12-17T09:45:12.322303"}
+{"type": "process_end", "data": {"pid": 71331}, "timestamp": "2024-12-17T09:45:12.324579"}
+{"type": "process_end", "data": {"pid": 71332}, "timestamp": "2024-12-17T09:45:12.326501"}
+{"type": "process_end", "data": {"pid": 71304}, "timestamp": "2024-12-17T09:45:12.330627"}
+{"type": "process_end", "data": {"pid": 71306}, "timestamp": "2024-12-17T09:45:12.333287"}
+{"type": "process_end", "data": {"pid": 71309}, "timestamp": "2024-12-17T09:45:12.338539"}
+{"type": "process_end", "data": {"pid": 71314}, "timestamp": "2024-12-17T09:45:12.342013"}
+{"type": "process_end", "data": {"pid": 71315}, "timestamp": "2024-12-17T09:45:12.345105"}
+{"type": "process_end", "data": {"pid": 71316}, "timestamp": "2024-12-17T09:45:12.348970"}
+{"type": "process_end", "data": {"pid": 71318}, "timestamp": "2024-12-17T09:45:12.351251"}
+{"type": "process_end", "data": {"pid": 71351}, "timestamp": "2024-12-17T09:45:12.353015"}
+{"type": "process_end", "data": {"pid": 71320}, "timestamp": "2024-12-17T09:45:12.356969"}
+{"type": "process_end", "data": {"pid": 71321}, "timestamp": "2024-12-17T09:45:12.358926"}
+{"type": "process_end", "data": {"pid": 71323}, "timestamp": "2024-12-17T09:45:12.360379"}
+{"type": "process_end", "data": {"pid": 71292}, "timestamp": "2024-12-17T09:45:12.361850"}
+{"type": "process_end", "data": {"pid": 71294}, "timestamp": "2024-12-17T09:45:12.364469"}
+{"type": "process_end", "data": {"pid": 71295}, "timestamp": "2024-12-17T09:45:12.366110"}
+{"type": "process_start", "data": {"pid": 71408, "name": "SimpleTex Helper (GPU)", "user": "alicee"}, "timestamp": "2024-12-17T09:45:12.689031"}
+{"type": "process_start", "data": {"pid": 71411, "name": "SimpleTex Helper", "user": "alicee"}, "timestamp": "2024-12-17T09:45:12.691401"}
+{"type": "process_start", "data": {"pid": 71406, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:45:12.693564"}
+{"type": "process_start", "data": {"pid": 71407, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:45:12.695201"}
+{"type": "process_end", "data": {"pid": 71329}, "timestamp": "2024-12-17T09:45:12.697252"}
+{"type": "process_start", "data": {"pid": 71412, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:45:13.019246"}
+{"type": "process_start", "data": {"pid": 71413, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:45:13.023630"}
+{"type": "process_start", "data": {"pid": 71414, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:45:13.026653"}
+{"type": "process_start", "data": {"pid": 71415, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:45:13.028631"}
+{"type": "process_start", "data": {"pid": 71416, "name": "SimpleTex Helper (Renderer)", "user": "alicee"}, "timestamp": "2024-12-17T09:45:13.032047"}
+{"type": "process_end", "data": {"pid": 71325}, "timestamp": "2024-12-17T09:45:13.346155"}
+{"type": "process_end", "data": {"pid": 71401}, "timestamp": "2024-12-17T09:45:23.526885"}
+{"type": "process_end", "data": {"pid": 71403}, "timestamp": "2024-12-17T09:45:23.529793"}
+{"type": "process_end", "data": {"pid": 71312}, "timestamp": "2024-12-17T09:45:23.532211"}
+{"type": "process_end", "data": {"pid": 71408}, "timestamp": "2024-12-17T09:45:23.536070"}
+{"type": "process_end", "data": {"pid": 71411}, "timestamp": "2024-12-17T09:45:23.538030"}
+{"type": "process_end", "data": {"pid": 71414}, "timestamp": "2024-12-17T09:45:23.539933"}
+{"type": "process_end", "data": {"pid": 71415}, "timestamp": "2024-12-17T09:45:23.544262"}
+{"type": "process_end", "data": {"pid": 71416}, "timestamp": "2024-12-17T09:45:23.546318"}
+{"type": "process_start", "data": {"pid": 71425, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:45:24.191236"}
+{"type": "process_start", "data": {"pid": 71426, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:45:24.195609"}
+{"type": "process_start", "data": {"pid": 71427, "name": "mdworker_shared", "user": "alicee"}, "timestamp": "2024-12-17T09:45:24.199492"}
+{"type": "process_end", "data": {"pid": 71195}, "timestamp": "2024-12-17T09:45:24.205445"}
+{"type": "process_start", "data": {"pid": 71432, "name": "AXVisualSupportAgent", "user": "alicee"}, "timestamp": "2024-12-17T09:45:26.767595"}
+{"type": "process_start", "data": {"pid": 71628, "name": "jcef Helper (GPU)", "user": "alicee"}, "timestamp": "2024-12-17T09:46:11.243490"}
+{"type": "process_start", "data": {"pid": 71630, "name": "jcef Helper", "user": "alicee"}, "timestamp": "2024-12-17T09:46:11.568548"}
+{"type": "process_start", "data": {"pid": 71641, "name": "ctest", "user": "alicee"}, "timestamp": "2024-12-17T09:46:11.884475"}
+{"type": "process_start", "data": {"pid": 71644, "name": "git", "user": "alicee"}, "timestamp": "2024-12-17T09:46:12.209084"}
+{"type": "process_end", "data": {"pid": 71641}, "timestamp": "2024-12-17T09:46:12.212004"}
+{"type": "process_end", "data": {"pid": 71644}, "timestamp": "2024-12-17T09:46:12.531431"}
+{"type": "process_end", "data": {"pid": 71569}, "timestamp": "2024-12-17T09:46:15.704436"}
+{"type": "process_end", "data": {"pid": 71625}, "timestamp": "2024-12-17T09:46:15.709422"}
+{"type": "process_end", "data": {"pid": 71475}, "timestamp": "2024-12-17T09:46:16.348955"}
+{"type": "process_start", "data": {"pid": 71680, "name": "ps", "user": "alicee"}, "timestamp": "2024-12-17T09:46:17.309745"}
+{"type": "process_end", "data": {"pid": 71680}, "timestamp": "2024-12-17T09:46:17.630725"}
+{"type": "process_end", "data": {"pid": 71681}, "timestamp": "2024-12-17T09:46:17.634291"}
+{"type": "process_end", "data": {"pid": 71608}, "timestamp": "2024-12-17T09:46:18.906117"}
+{"type": "process_end", "data": {"pid": 71491}, "timestamp": "2024-12-17T09:46:19.232198"}
+{"type": "process_end", "data": {"pid": 71628}, "timestamp": "2024-12-17T09:46:19.236709"}
+{"type": "process_end", "data": {"pid": 71630}, "timestamp": "2024-12-17T09:46:19.240624"}
+{"type": "process_start", "data": {"pid": 71683, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:46:22.451114"}
+{"type": "process_start", "data": {"pid": 71684, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:46:22.453277"}
+{"type": "process_start", "data": {"pid": 71689, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:46:22.455283"}
+{"type": "process_start", "data": {"pid": 71690, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:46:22.456694"}
+{"type": "process_start", "data": {"pid": 71691, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:46:22.460294"}
+{"type": "process_start", "data": {"pid": 71692, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:46:22.462046"}
+{"type": "process_end", "data": {"pid": 71683}, "timestamp": "2024-12-17T09:46:22.787472"}
+{"type": "process_end", "data": {"pid": 71684}, "timestamp": "2024-12-17T09:46:22.791245"}
+{"type": "process_end", "data": {"pid": 71689}, "timestamp": "2024-12-17T09:46:22.794520"}
+{"type": "process_end", "data": {"pid": 71690}, "timestamp": "2024-12-17T09:46:22.796548"}
+{"type": "process_end", "data": {"pid": 71691}, "timestamp": "2024-12-17T09:46:22.798832"}
+{"type": "process_end", "data": {"pid": 71692}, "timestamp": "2024-12-17T09:46:22.803189"}
+{"type": "process_end", "data": {"pid": 71611}, "timestamp": "2024-12-17T09:46:23.126833"}
+{"type": "process_end", "data": {"pid": 71519}, "timestamp": "2024-12-17T09:46:23.446943"}
+{"type": "process_start", "data": {"pid": 71703, "name": "xpcproxy", "user": "root"}, "timestamp": "2024-12-17T09:46:26.664532"}
+{"type": "process_end", "data": {"pid": 71432}, "timestamp": "2024-12-17T09:46:26.667582"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/interface.py"}, "timestamp": "2024-12-17T09:46:26.802645"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/interface.py"}, "timestamp": "2024-12-17T09:46:27.028587"}
+{"type": "process_start", "data": {"pid": 71706, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:46:27.299939"}
+{"type": "process_end", "data": {"pid": 71274}, "timestamp": "2024-12-17T09:46:27.374121"}
+{"type": "process_end", "data": {"pid": 71275}, "timestamp": "2024-12-17T09:46:27.376298"}
+{"type": "process_end", "data": {"pid": 71439}, "timestamp": "2024-12-17T09:46:27.378571"}
+{"type": "process_start", "data": {"pid": 71711, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:46:27.692877"}
+{"type": "process_end", "data": {"pid": 71709}, "timestamp": "2024-12-17T09:46:27.695697"}
+{"type": "process_end", "data": {"pid": 71710}, "timestamp": "2024-12-17T09:46:27.697997"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/plots.py"}, "timestamp": "2024-12-17T09:46:28.090827"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/plots.py"}, "timestamp": "2024-12-17T09:46:28.331892"}
+{"type": "process_start", "data": {"pid": 71720, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:46:28.640488"}
+{"type": "process_start", "data": {"pid": 71719, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:46:28.646411"}
+{"type": "process_end", "data": {"pid": 71706}, "timestamp": "2024-12-17T09:46:28.649726"}
+{"type": "process_end", "data": {"pid": 71711}, "timestamp": "2024-12-17T09:46:28.652876"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/notifier.py"}, "timestamp": "2024-12-17T09:46:29.255913"}
+{"type": "file_modified", "data": {"path": "/Users/alicee/Desktop/Work_Main/linux_prog/audit/code/notifier.py"}, "timestamp": "2024-12-17T09:46:29.459593"}
+{"type": "process_start", "data": {"pid": 71728, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:46:29.597208"}
+{"type": "process_end", "data": {"pid": 71720}, "timestamp": "2024-12-17T09:46:29.680927"}
+{"type": "process_end", "data": {"pid": 71719}, "timestamp": "2024-12-17T09:46:29.683119"}
+{"type": "process_start", "data": {"pid": 71729, "name": "python3.12", "user": "alicee"}, "timestamp": "2024-12-17T09:46:30.005727"}

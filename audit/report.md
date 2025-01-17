@@ -1,29 +1,31 @@
 # Отчёт по логам событий
 
-Дата генерации: 2024-12-17 03:10:23
+Дата генерации: 2024-12-20 17:22:10
 
-## Общее количество событий: 383
+## Общее количество событий: 737
 
 ## Распределение событий по типам:
-- process_start: 177
-- process_end: 170
-- file_modified: 36
+- process_start: 336
+- process_end: 330
+- file_modified: 70
+- file_deleted: 1
 
 ## Топ изменяемых файлов:
-- /Users/alicee/Desktop/Work_Main/linux_prog/audit/code/interface.py: 18
-- /Users/alicee/Desktop/Work_Main/linux_prog/audit/code/test.sh: 11
+- /Users/alicee/Desktop/Work_Main/linux_prog/audit/code/interface.py: 26
+- /Users/alicee/Desktop/Work_Main/linux_prog/audit/code/test.sh: 21
 - /Users/alicee/Desktop/Work_Main/linux_prog/audit/code/event_log.json: 6
-- /Users/alicee/Desktop/Work_Main/linux_prog/audit/code/loggerr.py: 1
+- /Users/alicee/Desktop/Work_Main/linux_prog/audit/code/loggerr.py: 5
+- /Users/alicee/Desktop/Work_Main/linux_prog/audit/code/notifier.py: 5
 
 ## Топ запускаемых процессов:
-- mdworker_shared: 59
-- python3.12: 26
-- zsh: 10
-- ps: 9
-- wakatime-cli-darwin-arm64: 9
+- mdworker_shared: 101
+- python3.12: 68
+- zsh: 20
+- wakatime-cli-darwin-arm64: 13
+- ps: 12
 
 ## Топ завершённых процессов:
-- Unknown: 170
+- Unknown: 330
 
 ## Графики:
 ![График](graphs/file_modifications.png)

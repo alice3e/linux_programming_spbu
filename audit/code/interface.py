@@ -35,6 +35,7 @@ class AuditApp:
         self.search_button = ttk.Button(filter_frame, text="Поиск", command=self.search_events)
         self.search_button.grid(row=0, column=4, padx=5)
 
+
         button_frame = ttk.Frame(root)
         button_frame.pack(pady=10)
 
